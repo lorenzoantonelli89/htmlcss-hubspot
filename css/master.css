@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .row::after{
   content: "";
   display: table;
@@ -34,6 +38,13 @@
 }
 
 /* regole di header */
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+}
+
 .boxheaderfloat.left{
   float: left;
 }
@@ -49,7 +60,7 @@
 /* regole topheader */
 .row.topheader{
   height: 60px;
-  background-color: rgb(242, 248, 253);
+  background-color: #f4f9fd;
   border-bottom: 1px solid rgb(44, 64, 81);
 }
 
@@ -93,6 +104,7 @@
 /* regole header bottom */
 .row.nav{
   height: 60px;
+  background-color: #fff;
 }
 
 .boxheaderfloat.bottom.right{
@@ -101,6 +113,10 @@
 
 .boxheaderfloat.bottom.right>span, .boxheaderfloat.bottom.right>i{
   padding-right: 15px;
+}
+
+.boxheaderfloat.bottom.left img{
+  padding-top: 14px;
 }
 
 /* regole jumbotron */
@@ -113,6 +129,7 @@
   background-position: 100% 100%;
   background-repeat: no-repeat;
   height: 500px;
+  margin-top: 120px;
 }
 
 .container.contentjumbo{
@@ -126,6 +143,7 @@
 
 .contentjumbo>h1{
   font-size: 50px;
+  font-weight: 500;
 }
 
 .contentjumbo>p{
@@ -149,7 +167,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  /* regole di debug */
   height: 82px;
   width: 100%;
 }
@@ -160,18 +177,24 @@ main{
 }
 
 .contenitore.azzurro{
-  background-color: lightblue;
+  background-color: #f4f9fd;
 }
 
 .titlemain{
-  /* regole di debug */
-  display: inline-block;
-  height: 250px;
-  width: 500px;
-  background-color: red;
-  margin: 50px 300px;
+  text-align: center;
+  padding-top: 80px;
 }
 
+.titlemain>h2{
+  font-size: 35px;
+  padding-bottom: 35px;
+}
+
+.titlemain>p{
+  padding-bottom: 50px;
+}
+
+/* regole prima sezione main */
 .section.main.first{
   /* regoli dei debug */
   height: 200px;
