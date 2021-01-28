@@ -64,7 +64,9 @@ header{
 /* regole di main */
 main{
   /* regole di debug */
-  height: 1000px;
+}
+
+.contenitore.azzurro{
   background-color: lightblue;
 }
 
@@ -88,7 +90,7 @@ main{
   float: left;
 }
 
-.columns.maintopleft{
+.columns.mainfirstleft{
   /* regole di debug */
   height: 100px;
   width: 100px;
@@ -97,11 +99,107 @@ main{
   margin-left: 80px;
 }
 
-.columns.maintopright{
+.columns.mainfirstright{
   /* regole di debug */
   height: 150px;
   width: 50%;
   background-color: red;
   margin-top: 30px;
   margin-left: 70px;
+}
+
+.columns.mainsecond{
+  /* regole di debug */
+  height: 400px;
+  width: 250px;
+  background-color: #fff;
+  margin: 50px 50px 0 0 ;
+}
+
+.contenitore.verde{
+  /* regole di debug */
+  height: 800px;
+  background-color: green;
+}
+
+.titlesectionthird{
+  /* regole di debug */
+  display: inline-block;
+  height: 150px;
+  width: 80%;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.blockinfo.middle{
+  float: left;
+  /* regole di debug */
+  height: 200px;
+  width: 20%;
+  background-color: yellow;
+  border-bottom: 1px solid black;
+}
+
+.blockinfo.middle.marginleft{
+  /* regole di debug */
+  border-left: 1px solid black;
+}
+
+.blockinfo.bottom{
+  /* regole debug */
+  float: left;
+}
+
+.blockinfo.bottom.left{
+  /* regole di debug */
+  width: 20%;
+  height: 200px;
+  background-color: red;
+  margin-top: 50px;
+}
+
+.blockinfo.bottom.right{
+  /* regole di debug */
+  width: 40%;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 20%;
+  background-color: red;
+}
+
+footer{
+  /* regole debug */
+  height: 900px;
+  background-color: blue;
+}
+
+.section.footer.first{
+  margin-bottom: 50px;
+}
+
+.list{
+  /* regole debug */
+  width: 20%;
+  height: 500px;
+  background-color: #fff;
+  float: left;
+  margin-top: 50px;
+  margin-right: 3%;
+}
+
+.asidefooter{
+  /* regole di debug */
+  height: 100px;
+  width: 30%;
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.asidefooter.left{
+  float: left;
+}
+
+.asidefooter.right{
+  float: right;
 }
