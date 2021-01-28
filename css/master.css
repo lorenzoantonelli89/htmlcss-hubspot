@@ -11,6 +11,10 @@
   clear: both;
 }
 
+.container{
+  margin-left: 10%;
+}
+
 
 /* regole di header */
 header{
@@ -45,7 +49,6 @@ header{
   background-color: red;
   position: absolute;
   top: 10%;
-  left: 10%;
 }
 
 .pagedivision{
@@ -63,16 +66,42 @@ main{
   /* regole di debug */
   height: 1000px;
   background-color: lightblue;
-  position: relative;
 }
 
 .titlemain{
   /* regole di debug */
+  display: inline-block;
   height: 250px;
   width: 500px;
   background-color: red;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  transform: translate(-50% - 50%);
+  margin: 50px 300px;
+}
+
+.section.main.first{
+  /* regoli dei debug */
+  height: 200px;
+  width: 80%;
+  background-color: #fff;
+}
+
+.columns{
+  float: left;
+}
+
+.columns.maintopleft{
+  /* regole di debug */
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.columns.maintopright{
+  /* regole di debug */
+  height: 150px;
+  width: 50%;
+  background-color: red;
+  margin-top: 30px;
+  margin-left: 70px;
 }
