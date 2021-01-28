@@ -15,50 +15,143 @@
   margin-left: 10%;
 }
 
+.button{
+  border-radius: 5px;
+}
+
+.button.orange{
+  background-color: #ff7a59;
+  border-color: #ff7a59;
+  color: #fff;
+}
+
+.noline.button{
+  color: #fff;
+}
+
+.noline{
+  text-decoration: none;
+}
 
 /* regole di header */
-header{
-  /* regole di debug */
-  height: 160px;
+.boxheaderfloat.left{
+  float: left;
 }
 
+.boxheaderfloat.right{
+  float: right;
+}
+
+.boxheaderfloat{
+  color: rgb(44, 64, 81);
+}
+
+/* regole topheader */
 .row.topheader{
-  /* regole di debug */
-  height: 80px;
-  background-color: lightblue;
+  height: 60px;
+  background-color: rgb(242, 248, 253);
+  border-bottom: 1px solid rgb(44, 64, 81);
 }
 
+.container.header{
+  line-height: 60px;
+}
+
+.boxheaderfloat.top.left>.fas.fa-chevron-down{
+  border-right: 2px solid rgb(126, 136, 140);
+  padding-right: 15px;
+}
+
+.boxheaderfloat.top.left>a{
+  color: rgb(44, 64, 81);
+  padding-left: 15px;
+}
+
+.boxheaderfloat.top.right{
+  margin-right: 20%;
+}
+
+.fas.fa-search{
+  color: rgb(0, 154, 181);
+}
+
+#buttonwhite, #buttonslim{
+  padding: 10px 12px;
+}
+
+#buttonwhite{
+  border-color: rgb(254, 107, 80);
+  background-color: #fff;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#buttonwhite>a{
+  color: rgb(254, 107, 80);
+}
+
+/* regole header bottom */
 .row.nav{
-  /* regole di debug */
-  height: 80px;
+  height: 60px;
+}
+
+.boxheaderfloat.bottom.right{
+  margin-right: 19%;
+}
+
+.boxheaderfloat.bottom.right>span, .boxheaderfloat.bottom.right>i{
+  padding-right: 15px;
 }
 
 /* regole jumbotron */
 
 .jumbotron{
   position: relative;
-  /* regole di debug */
+  background-color: #fff5ef;
+  background-image: url("../img/jumbotron.png");
+  background-size: 1060px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
   height: 500px;
-  background-color: lightpink;
 }
 
 .container.contentjumbo{
-  /* regole di debug */
-  height: 300px;
-  width: 300px;
-  background-color: red;
-  position: absolute;
-  top: 10%;
+  width: 28%;
+  padding-top: 40px;
+}
+
+.contentjumbo{
+  color: rgb(45, 62, 81);
+}
+
+.contentjumbo>h1{
+  font-size: 50px;
+}
+
+.contentjumbo>p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button.orange.big{
+  padding: 15px 23px;
+}
+
+.contentjumbo>span{
+  display: block;
+  margin-top: 20px;
 }
 
 .pagedivision{
+  background-color: rgb(166, 232, 224);
+  border-top: 2px solid rgb(45, 62, 81);
+  border-bottom: 2px solid rgb(45, 62, 81);
   position: absolute;
   bottom: 0;
   left: 0;
   /* regole di debug */
-  height: 100px;
+  height: 82px;
   width: 100%;
-  background-color: lightgreen;
 }
 
 /* regole di main */
