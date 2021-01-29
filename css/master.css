@@ -177,8 +177,9 @@ header{
 }
 
 /* regole di main */
-main{
-  /* regole di debug */
+.section.main.first, .columns.mainsecond{
+  box-shadow: 1px 1px 5px 1px rgb(226, 233, 239);
+  border-radius: 5px;
 }
 
 .contenitore.azzurro{
@@ -453,22 +454,60 @@ main{
 footer{
   /* regole debug */
   height: 900px;
-  background-color: blue;
+  background-color: #32495b;
 }
 
+/* section footer one */
 .section.footer.first{
   margin-bottom: 50px;
 }
 
 .list{
-  /* regole debug */
   width: 20%;
-  height: 500px;
-  background-color: #fff;
   float: left;
   margin-top: 50px;
   margin-right: 3%;
+  color: #fff;
+  /* regole debug */
+  height: 500px;
 }
+
+.list>h4{
+  padding-bottom: 40px;
+}
+
+.list>ul{
+  list-style-type: none;
+}
+
+.list li{
+  padding-bottom: 25px;
+}
+
+.list a{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.list.four button{
+  padding: 10px 6px;
+  border-radius: 10px;
+  border: 1px solid rgb(247, 248, 248);
+}
+
+.list.four button>a{
+  color: #32495b;
+}
+
+#linksocial>a{
+  padding-right: 23px;
+}
+
+#linksocial>a, .list.four button, .list a{
+  color: rgb(206, 218, 225);
+}
+
+/* sezione footer second */
 
 .asidefooter{
   /* regole di debug */
