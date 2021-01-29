@@ -16,7 +16,9 @@ body{
 }
 
 .container{
-  margin-left: 10%;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .contentjumbo, .container.main.bottom, .contenitore.azzurro{
@@ -145,19 +147,21 @@ header{
 }
 
 .container.contentjumbo{
-  width: 40%;
   padding-top: 40px;
 }
 
 .contentjumbo>h1{
   font-size: 55px;
   font-weight: 500;
+  width: 45%;
 }
 
 .contentjumbo>p{
+  width: 52%;
   font-size: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 .contentjumbo>span{
@@ -186,28 +190,29 @@ header{
   background-color: #f4f9fd;
 }
 
-.titlemain{
+.container.titlemain{
   text-align: center;
   padding-top: 80px;
 }
 
-.titlemain>img{
+.container.titlemain>img{
   width: 23%;
 }
 
-.titlemain>h2{
+.container.titlemain>h2{
   font-size: 35px;
   padding-bottom: 35px;
 }
 
-.titlemain>p{
+.container.titlemain>p{
   font-weight: 200;
   padding-bottom: 50px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* regole prima sezione main */
 .section.main.first{
-  width: 90%;
   background-color: #fff;
 }
 
@@ -233,7 +238,7 @@ header{
 }
 
 .columns.mainfirstright{
-  width: 45%;
+  width: 50%;
   padding-top: 60px;
 }
 
@@ -257,7 +262,7 @@ header{
 
 #linegrey{
   display: inline-block;
-  width: 70%;
+  width: 68%;
   height: 2px;
   margin-left: 5%;
   background-color: rgb(126, 136, 140);
@@ -271,7 +276,7 @@ header{
 
 /* sezione main second */
 .columns.mainsecond{
-  width: calc(80% / 3);
+  width: calc(90% / 3);
   background-color: #fff;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -331,19 +336,17 @@ header{
 
 .titlesectionthird{
   color: #fff;
-  width: 63%;
-  margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .titlesectionthird>h2{
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 30px;
 }
 
 .titlesectionthird>p{
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -354,7 +357,7 @@ header{
 
 .blockinfo.middle{
   height: 200px;
-  width: 22%;
+  width: 25%;
   color: #fff;
 }
 
@@ -383,7 +386,7 @@ header{
 /* section four */
 /* blockinfo bottom up*/
 .blockinfo.bottom{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .blockinfo.bottom.up.left{
@@ -393,7 +396,7 @@ header{
 
 .blockinfo.bottom.up.right{
   width: 50%;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 .blockinfo.bottom.up.left>h2{
@@ -446,7 +449,7 @@ header{
 }
 
 .blockinfo.bottom.down.right>img{
-  height: 350px;
+  height: 400px;
 }
 
 /* blockinfo bottom down */
@@ -461,7 +464,7 @@ footer{
 }
 
 .list{
-  width: 20%;
+  width: 22%;
   float: left;
   margin-top: 50px;
   margin-right: 3%;
@@ -518,11 +521,9 @@ footer{
 
 .language>hr{
   border: 1px solid rgb(206, 218, 225);
-  width: 90%;
 }
 
 .asidefooter{
-  width: 30%;
   margin-top: 40px;
   margin-bottom: 50px;
 }
@@ -533,9 +534,12 @@ footer{
 
 .asidefooter.right{
   float: right;
-  padding-left: 8.5%;
 }
 
 .asidefooter.left>h5{
   color: #fff;
+}
+
+.asidefooter.right>a{
+  padding-left: 10px;
 }
