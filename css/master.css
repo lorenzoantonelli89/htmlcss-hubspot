@@ -41,6 +41,11 @@ body{
   text-decoration: none;
 }
 
+.fas.fa-check-circle{
+  color: #ff7a59;
+  padding-right: 17px;
+}
+
 /* regole di header */
 header{
   width: 100%;
@@ -126,17 +131,17 @@ header{
 /* regole jumbotron */
 .jumbotron{
   position: relative;
-  background-color: #fff5ef;
+  background-color: #fff3ee;
   background-image: url("../img/jumbotron.png");
-  background-size: 1060px;
+  background-size: 1510px;
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 730px;
   margin-top: 120px;
 }
 
 .container.contentjumbo{
-  width: 28%;
+  width: 40%;
   padding-top: 40px;
 }
 
@@ -145,18 +150,19 @@ header{
 }
 
 .contentjumbo>h1{
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 500;
 }
 
 .contentjumbo>p{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .contentjumbo>span{
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .pagedivision{
@@ -166,7 +172,7 @@ header{
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 82px;
+  height: 88px;
   width: 100%;
 }
 
@@ -244,11 +250,11 @@ main{
   padding-bottom: 40px;
 }
 
-#spanbold{
+.bold{
   font-weight: 600;
 }
 
-#cihopersounavita{
+#linegrey{
   display: inline-block;
   width: 70%;
   height: 2px;
@@ -257,28 +263,69 @@ main{
   vertical-align: middle;
 }
 
-.columns.mainfirstright i{
-  padding-right: 20px;
-  color: #ff7a59;
-}
-
 .columns.mainfirstright li{
   display: inline-block;
   padding-right: 30px;
 }
 
+/* sezione main second */
 .columns.mainsecond{
-  /* regole di debug */
-  height: 400px;
-  width: 250px;
+  width: calc(80% / 3);
   background-color: #fff;
-  margin: 50px 50px 0 0 ;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+.columns.mainsecond.central{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.boxcentrato{
+  text-align: center;
+}
+
+.columns.mainsecond img{
+  height: 170px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.columns.mainsecond h3{
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.columns.mainsecond p{
+  padding: 20px 66px;
+}
+
+.columns.mainsecond hr{
+  width: 80%;
+  margin: 50px 10% 85px 10%;
+  border: 1px solid rgb(126, 136, 140);
+}
+
+.columns.mainsecond span{
+  font-size: 24px;
+}
+
+.columns.mainsecond ul{
+  list-style-type: none;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.columns.mainsecond>button{
+  margin: 45px 37%;
+}
+
+/* regole terza sezione main */
 .contenitore.verde{
   /* regole di debug */
   height: 800px;
-  background-color: green;
+  background-image: linear-gradient(45deg
+    ,#00a4bd,#00bda5);
 }
 
 .titlesectionthird{
