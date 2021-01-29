@@ -452,8 +452,6 @@ header{
 /* blockinfo bottom down */
 
 footer{
-  /* regole debug */
-  height: 900px;
   background-color: #32495b;
 }
 
@@ -476,7 +474,7 @@ footer{
   padding-bottom: 40px;
 }
 
-.list>ul{
+.list>ul, .language>ul{
   list-style-type: none;
 }
 
@@ -484,7 +482,7 @@ footer{
   padding-bottom: 25px;
 }
 
-.list a{
+.list a, .language a{
   font-size: 15px;
   font-weight: 200;
 }
@@ -503,18 +501,30 @@ footer{
   padding-right: 23px;
 }
 
-#linksocial>a, .list.four button, .list a{
+#linksocial>a, .list.four button, .list a, .language a, .asidefooter.right>a{
   color: rgb(206, 218, 225);
 }
 
 /* sezione footer second */
+.language{
+  text-align: center;
+}
+
+.language li{
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 17px;
+}
+
+.language>hr{
+  border: 1px solid rgb(206, 218, 225);
+  width: 90%;
+}
 
 .asidefooter{
-  /* regole di debug */
-  height: 100px;
   width: 30%;
-  background-color: #fff;
-  margin-top: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .asidefooter.left{
@@ -523,4 +533,9 @@ footer{
 
 .asidefooter.right{
   float: right;
+  padding-left: 8.5%;
+}
+
+.asidefooter.left>h5{
+  color: #fff;
 }
