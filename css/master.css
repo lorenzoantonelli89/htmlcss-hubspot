@@ -68,7 +68,7 @@ header{
   float: right;
 }
 
-.boxheaderfloat{
+.boxheaderfloat, .listinline a{
   color: rgb(44, 64, 81);
 }
 
@@ -126,9 +126,17 @@ header{
   margin-right: 9%;
 }
 
-.boxheaderfloat.bottom.right>span, .boxheaderfloat.bottom.right>i{
+.listinline{
+  display: inline-block;
+}
+
+.listinline{
   padding-right: 15px;
 }
+
+ .listinline i{
+   padding-left: 15px;
+ }
 
 .boxheaderfloat.bottom.left img{
   padding-top: 14px;
