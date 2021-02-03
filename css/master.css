@@ -21,7 +21,7 @@ body{
   margin: 0 auto;
 }
 
-.contentjumbo, .container.main.bottom, .contenitore.azzurro{
+.contentjumbo, .container.main.bottom, #contenitoreazzurro{
   color: #33475B;
 }
 
@@ -106,8 +106,9 @@ header{
 }
 
 #buttonwhite{
-  border-color: rgb(254, 107, 80);
+  border: 1px solid rgb(254, 107, 80);
   background-color: #fff;
+  color: rgb(254, 107, 80);
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -189,12 +190,12 @@ header{
 }
 
 /* regole di main */
-.section.main.first, .columns.mainsecond{
+#mainfirst, .columns.mainsecond{
   box-shadow: 1px 1px 5px 1px rgb(226, 233, 239);
   border-radius: 5px;
 }
 
-.contenitore.azzurro{
+#contenitoreazzurro{
   background-color: #f4f9fd;
 }
 
@@ -220,7 +221,7 @@ header{
 }
 
 /* regole prima sezione main */
-.section.main.first{
+#mainfirst{
   background-color: #fff;
 }
 
@@ -335,7 +336,7 @@ header{
 }
 
 /* regole terza sezione main */
-.contenitore.verde{
+#contenitoreverde{
   height: 780px;
   background-image: linear-gradient(45deg
   ,#00a4bd,#00bda5);
@@ -467,7 +468,7 @@ footer{
 }
 
 /* section footer one */
-.section.footer.first{
+#footerfirst{
   margin-bottom: 50px;
 }
 
@@ -512,22 +513,22 @@ footer{
   padding-right: 23px;
 }
 
-#linksocial>a, .list.four button, .list a, .language a, .asidefooter.right>a{
+#linksocial>a, .list.four button, .list a, #language a, .asidefooter.right>a{
   color: rgb(206, 218, 225);
 }
 
 /* sezione footer second */
-.language{
+#language{
   text-align: center;
 }
 
-.language li{
+#language li{
   display: inline-block;
   padding-right: 20px;
   padding-bottom: 17px;
 }
 
-.language>hr{
+#language>hr{
   border: 1px solid rgb(206, 218, 225);
 }
 
@@ -540,12 +541,12 @@ footer{
   float: left;
 }
 
-.asidefooter.right{
-  float: right;
-}
-
 .asidefooter.left>h5{
   color: #fff;
+}
+
+.asidefooter.right{
+  float: right;
 }
 
 .asidefooter.right>a{
