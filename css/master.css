@@ -36,7 +36,6 @@ body{
 .button.orange{
   background-color: #ff7a59;
   border-color: #ff7a59;
-  color: #fff;
 }
 
 .noline.button{
@@ -238,12 +237,11 @@ header{
 .columns.mainfirstleft>img{
   width: 41%;
   display: block;
+  margin-bottom: 40px;
 }
 
-.columns.mainfirstleft>button{
-  margin-top: 40px;
+.columns.mainfirstleft>a{
   margin-left: 15px;
-  padding-bottom: 60px;
 }
 
 .columns.mainfirstright{
@@ -329,10 +327,12 @@ header{
   list-style-type: none;
   margin-left: 10%;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.columns.mainsecond>button{
-  margin: 45px 37%;
+.columns.mainsecond>a{
+  margin-left: 32%;
+  margin-top: 20px;
 }
 
 /* regole terza sezione main */
@@ -448,12 +448,9 @@ header{
   line-height: 2;
 }
 
-.blockinfo.bottom.down.left>button{
-  margin-bottom: 50px;
-}
-
 .blockinfo.bottom.down.left>span{
   display: block;
+  margin-top: 50px;
   margin-bottom: 65px;
 }
 
@@ -499,13 +496,11 @@ footer{
   font-weight: 200;
 }
 
-.list.four button{
+#buttonfooter{
   padding: 10px 6px;
   border-radius: 10px;
   border: 1px solid rgb(247, 248, 248);
-}
-
-.list.four button>a{
+  background-color: rgb(206, 218, 225);
   color: #32495b;
 }
 
@@ -513,7 +508,7 @@ footer{
   padding-right: 23px;
 }
 
-#linksocial>a, .list.four button, .list a, #language a, .asidefooter.right>a{
+#linksocial>a, .list a, #language a, .asidefooter.right>a{
   color: rgb(206, 218, 225);
 }
 
