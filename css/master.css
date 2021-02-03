@@ -283,6 +283,7 @@ header{
 
 /* sezione main second */
 .columns.mainsecond{
+  min-height: 850px;
   width: calc(90% / 3);
   background-color: #fff;
   margin-top: 50px;
@@ -327,7 +328,7 @@ header{
   list-style-type: none;
   margin-left: 10%;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .columns.mainsecond>a{
